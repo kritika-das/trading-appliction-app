@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+*
+{
+margin:0;
+padding:0;
+font-family: 'Comfortaa', cursive;
+}
+.container-fluid
+{
+width: 100%;
+background:rgb(23, 118, 152);
+color: #fff;
+}
+.navbar
+{
+width: 1200px;
+height: 80px;
+margin:auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar ul
+{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+}
+.navbar ul li
+{
+margin-right: 25px;
+font-size: 14px;
+cursor: pointer;
+font-weight: bold;
+transition: .5s;
+}
+.navbar ul li:hover
+{
+color: rgb(0, 0, 0);
+}
+.navbar .btn
+{
+width: 140px;
+height: 45px;
+background: rgb(219, 207, 207);
+border-radius: 25px;
+border:2px solid #e33;
+font-weight: bold;
+cursor: pointer;
+transition: .5s;
+color: #fff;
+}
+.navbar .btn:hover
+{
+background:#e11;
+}
+.content
+{
+width: 1200px;
+margin:auto;
+display: flex;
+}
+.content h3
+{
+padding-top: 150px;
+font-size: 20px;
+}
+.content h1
+{
+font-size: 70px;
+font-weight: bold;
+padding-top: 20px;
+}
+.content span
+{
+color: #e33;
+}
+.content h4
+{
+font-size: 20px;
+padding-top: 20px;
+}
+.content input
+{
+margin-top: 50px;
+width: 400px;
+height: 45px;
+border-radius: 25px;
+background:transparent;
+border:2px solid #fff;
+font-size: 16px;
+outline: none;
+padding:23px;
+}
+.content input::placeholder
+{
+color: #fff;
+}
+.content button
+{
+width: 140px;
+height: 45px;
+border-radius: 25px;
+background-color: #e33;
+cursor: pointer;
+font-size: 15px;
+position: relative;
+left: -148px;
+border:2px solid #e33;
+transition: .5s;
+color: #fff;
+}
+.content button:hover
+{
+background:#e11;
+}
+.content img
+{
+margin-left: 200px;
+width: 400px;
+}
+.about
+{
+width: 100%;
+background: #222;
+}
+.about .cont
+{
+width: 1200px;
+margin:auto;
+display: flex;
+padding-top: 50px;
+}
+.cont img
+{
+width: 500px;
+margin-top: 100px;
+}
+.cont h1
+{
+color: #fff;
+padding-top: 80px;
+font-weight: bold;
+font-size: 40px;
+padding-left: 100px;
+}
+.cont h3
+{
+font-weight: bold;
+color: #fff;
+padding-top: 10px;
+font-size: 15px;
+padding-left: 100px;
+}
+.cont p
+{
+padding-left: 100px;
+color: #999;
+line-height: 25px;
+padding-top: 30px;
+}
+.cont button
+{
+width: 140px;
+height: 45px;
+border-radius: 25px;
+background-color: #e33;
+cursor: pointer;
+font-size: 15px;
+border:2px solid #e33;
+transition: .5s;
+color: #fff;
+margin-left: 100px;
+margin-top: 30px;
+}
+.cont button:hover
+{
+background-color: #e11;
+}
+.service
+{
+width: 100%;
+background: #111;
+padding: 50px 0px;
+}
+.service .text
+{
+width: 1200px;
+margin:auto;
+padding:25px 0px;
+}
+.service .text h1
+{
+color: #fff;
+font-weight: bold;
+font-size: 40px;
+text-align: center;
+}
+.service .box
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+}
+.service .box div
+{
+width: 350px;
+background:#fff;
+border-radius: 10px;
+text-align: center;
+padding:20px 10px;
+}
+.service .box div ion-icon
+{
+color: #e33;
+font-size: 50px;
+padding-top: 20px;
+}
+.service .box div h2
+{
+font-weight: bold;
+cursor: pointer;
+padding-top: 20px;
+}
+.service .box div p
+{
+color: #111;
+line-height: 25px;
+padding:30px;
+font-weight: bold;
+font-family: arial;
+}
+.pricing
+{
+width: 100%;
+background-color: #222;
+}
+.price
+{
+width: 1200px;
+margin:auto;
+padding:50px 0px;
+height: 600px;
+}
+.price h1
+{
+text-align: center;
+color: #fff;
+}
+.price p
+{
+color: #fff;
+font-size: 15px;
+padding-top: 20px;
+text-align: center;
+}
+.pricing .price-box
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.pricing .price-box div
+{
+width: 300px;
+padding:25px;
+background-color: #fff;
+border-radius: 10px;
+text-align: center;
+margin-top: 100px;
+cursor: pointer;
+transition: .5s;
+}
+.pricing .price-box div:hover
+{
+margin-top: 70px;
+}
+.pricing .price-box div h2
+{
+font-size: 30px;
+}
+.pricing .price-box div h3
+{
+font-size: 60px;
+color: #e33;
+padding-top: 20px;
+}
+.pricing .price-box div h5
+{
+font-weight: bold;
+font-size: 15px;
+padding-top: 20px;
+}
+.pricing .price-box div .btn
+{
+width: 140px;
+height: 45px;
+background-color: #e33;
+border-radius: 25px;
+border:2px solid #e33;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+transition: .5s;
+}
+.pricing .price-box div .btn:hover
+{
+background-color: #e11;
+}
+.footer-fluid
+{
+width: 100%;
+background-color: #111;
+}
+.footer
+{
+width: 1200px;
+margin: auto;
+padding:50px;
+display: flex;
+box-sizing: border-box;
+justify-content: space-between;
+align-items: center;
+}
+.footer p
+{
+color: #fff;
+}
+.footer a
+{
+text-decoration: none;
+color: #e33;
+}
+.footer ion-icon
+{
+color: #fff;
+font-size: 25px;
+margin-right: 10px;
+cursor: pointer;
+transition: .5s;
+}
+.footer ion-icon:hover
+{
+color: #e33;
+}
